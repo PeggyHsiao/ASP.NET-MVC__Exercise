@@ -76,3 +76,8 @@ C:\Users\Peggy.Hsiao\Desktop\C#\ch5\slnLINQ\slnLINQ\obj\Debug\slnLINQ.csproj.Cor
 C:\Users\Peggy.Hsiao\Desktop\C#\ch5\slnLINQ\slnLINQ\obj\Debug\slnLINQ.csproj.CopyComplete
 C:\Users\Peggy.Hsiao\Desktop\C#\ch5\slnLINQ\slnLINQ\obj\Debug\slnLINQ.dll
 C:\Users\Peggy.Hsiao\Desktop\C#\ch5\slnLINQ\slnLINQ\obj\Debug\slnLINQ.pdb
+C:\Users\Peggy.Hsiao\Desktop\C#\ch5\slnLINQ\slnLINQ\bin\EntityFramework.dll
+C:\Users\Peggy.Hsiao\Desktop\C#\ch5\slnLINQ\slnLINQ\bin\EntityFramework.SqlServer.dll
+C:\Users\Peggy.Hsiao\Desktop\C#\ch5\slnLINQ\slnLINQ\bin\EntityFramework.xml
+C:\Users\Peggy.Hsiao\Desktop\C#\ch5\slnLINQ\slnLINQ\bin\EntityFramework.SqlServer.xml
+C:\Users\Peggy.Hsiao\Desktop\C#\ch5\slnLINQ\slnLINQ\bin\zh-Hant\EntityFramework.resources.dll
