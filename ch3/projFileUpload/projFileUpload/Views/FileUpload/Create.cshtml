@@ -1,0 +1,24 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+</head>
+<body>
+    <form method="post" action="@Url.Action("Create")" enctype="multipart/form-data">
+        <div>
+            <p>Please selected a file.</p>
+            <input type="file" name="photos" />
+            <input type="file" name="photos" />
+            <input type="file" name="photos" />
+            <input type="submit" value="UPLOAD" />
+        </div>
+        </form>
+</body>
+</html>

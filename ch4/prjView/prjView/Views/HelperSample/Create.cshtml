@@ -1,0 +1,27 @@
+﻿@model prjView.Models.Member
+
+@{
+    ViewBag.Title = "會員註冊";
+}
+
+<h2>會員註冊</h2>
+
+@using (Html.BeginForm())
+{
+    <p>
+        帳號: @Html.TextBoxFor(model => model.UserId, new { @class = "form-control" })
+    </p>
+    <p>
+        密碼: @Html.PasswordFor(model => model.Pwd, new { @class = "form-control" })
+    </p>
+    <p>
+        信箱: @Html.TextBoxFor(model => model.Email, new { @class = "form-control", type = "email" })
+    </p>
+    <p>
+        生日: @Html.TextBoxFor(model => model.Birthday, new { @class = "form-control", type = "date" })
+    </p>
+    <input type="submit" value="註冊" />
+    <hr>
+
+    <p>@Html.Raw(@ViewBag.Msg)</p>
+}
