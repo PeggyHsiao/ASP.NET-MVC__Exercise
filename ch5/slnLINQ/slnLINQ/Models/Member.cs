@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace slnLINQ.Controllers
+namespace slnLINQ.Models
 {
     public class Member
     {
