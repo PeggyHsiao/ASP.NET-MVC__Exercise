@@ -1,0 +1,40 @@
+﻿@model IEnumerable<slnModelValidate.Models.tStudent>
+@{
+    ViewBag.Title = "學生列表";
+}
+
+<h2>學生列表</h2>
+
+<p>
+    @Html.ActionLink("學生新增", "Create")
+</p>
+
+@if (Model.Count() == 0)
+{
+    <p>無學生紀錄</p>
+}
+else
+{
+    <table>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.fStuId)</th>
+            <th>@Html.DisplayNameFor(model => model.fName)</th>
+            <th>@Html.DisplayNameFor(model => model.fName)</th>
+            <th>@Html.DisplayNameFor(model => model.fName)</th>
+            <th></th>
+        </tr>
+
+        @foreach (var i in Model)
+        {
+            <tr>
+                <td>@i.fStuId</td>
+                <td>@i.fName</td>
+                <td>@i.fEmail</td>
+                <td>@i.fScore</td>
+                <td>
+                    @Html.ActionLink("刪除", "Delete", new { id = i.fStuId })
+                </td>
+            </tr>
+        }
+    </table>
+}
